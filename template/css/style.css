@@ -1,0 +1,37 @@
+body {height: 100%; margin: 0px;}
+div {font-family: Arial; border: solid 0px;}
+#wrap {min-height: 100%;
+	margin: 0px;
+	background-color: #3B638B;
+	padding: 20px;
+	position: relative;
+	}
+#list {
+	 width: 640px;
+	 margin: auto ;
+	 background-color: #ffffff;
+	 padding: 25px;
+	 border-radius: 25px;
+	 display: block;
+	-moz-box-shadow:    3px 3px 5px 6px #333333;
+  -webkit-box-shadow: 3px 3px 5px 6px #333333;
+  box-shadow:         3px 3px 5px 6px #333333;
+	}
+#headText { float: right; width: 370px; }
+#headImage {float: left; width: 240px;}
+#bodyText {padding: 0px; clear: both;}
+#bodyText div {display: block; position: relative; overflow: hidden; border: solid 0px; padding: 0px 25px;}
+#bodyText div div {float: left; display: block; width: 30%;}
+#bodyText div ul {float: left; display: block; width: 25%;}
+#bodyText div li {line-height: 25px;}
+div #bottom_block { padding: 0px;}
+#bottom_block div { min-width: 45%; padding: 0px;}
+#bottom_block div ul { min-width: 90%; padding: 0px 25px; }
+#bottom_block div ul li { margin-left: 20px;}
+#bottom_block div.right {float: right;}
+p.naviki {padding-top: 10px; line-height: 20px; clear: both;}
+H1, H2 {text-align: center; margin: 0px;}
+H2 {text-align: center; line-height: 30px; padding: 25px 0px 0px 0px;}
+p {line-height: 20px; margin: 10px auto;}
+div #footer {margin: 10px 0px 25px 0px; padding: 0px;}
+#footer p {text-align: right; font-size: 10px;}

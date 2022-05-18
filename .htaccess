@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /mvc_practica/
+RewriteRule ^(.*)$ index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+<IfModule dir_module>
+    DirectoryIndex index.php
+</IfModule>
